@@ -22,6 +22,8 @@ spec:
         env:
           - name:  FLUENT_ELASTICSEARCH_HOST
             value: "elasticsearch-logging"
+          - name:  FLUENT_ELASTICSEARCH_HOSTS
+            value: "eshost1:port,eshost2:port"
           - name:  FLUENT_ELASTICSEARCH_PORT
             value: "9200"
           - name: FLUENT_ELASTICSEARCH_SCHEME
